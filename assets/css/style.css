@@ -1,0 +1,69 @@
+header {    
+    background: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: baseline;
+}
+
+header h1 {
+    color: black;
+    font-size: 60px;
+    display: inline-block;
+}
+
+.flex-container{   
+    display: flex; 
+    margin: 10px;
+    justify-content: flex-start;
+}
+
+.flex-container > title {
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin-right: 10px;
+    justify-content: flex-start;
+}
+
+.flex-container > data {
+    color: darkslategray;
+    margin-left: 10px;
+    justify-content: flex-end;
+}
+
+header nav {
+    padding: 60px;     
+    font-size: 20px;
+}
+
+header nav ul li {   
+    margin-left: 25px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+.float-right {
+    float: right;
+    margin-right: 25px;
+}
+
+#about-me {
+    display: flex;
+}
+
+.mywork {
+    display:flex
+}
+
+.contact {
+    display:flex
+}
+
+h2 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px
+}
